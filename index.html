@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <title>Game</title>
+        <style>
+            table, th, td {
+                border: 1px solid #D1D0CE;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body style="margin: 0px auto; height: auto; width: auto;">
+        <center><h3>Bricks game</h3></center>
+        <center><p id="score">Score: 0</p></center>
+
+        <div id="game-location" style="margin: 0px auto; max-width: 400px; display: grid; place-items: center;"></div>
+
+        <center><p><button onclick="changeCond(event, this)" id="gameplay">Start</button></p></center>
+
+        <div style="margin: 0px auto; max-width: 400px; display: grid; place-items: center;">
+            <div style="margin: 10px 10px 10px 10px;">
+                <table>
+                    <tr>
+                        <td><button onclick="changeMove(event, 37)" style="font-size: 24px;">&#8592;</button></td>
+                        <td></td>
+                        <td><button onclick="changeMove(event, 39)" style="font-size: 24px;">&#8594;</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>

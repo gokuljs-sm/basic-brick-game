@@ -13,4 +13,4 @@
     
 # Auther
     * GOKUL J S (greenpark809@gmail.com)
-    * Studied at GRT INSTITUTE OF ENGINEERING AND TECHNOLOGY.
+    * Student at GRT INSTITUTE OF ENGINEERING AND TECHNOLOGY.
